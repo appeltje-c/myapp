@@ -28,7 +28,4 @@
 https://www.youtube.com/watch?v=M6ZavWvKlcc&ab_channel=kodEdge
 
 
-ArgoCD Password:
-gmAK1ttZIHebFyAQ
-
 https://www.youtube.com/watch?v=MeU5_k9ssrs&ab_channel=TechWorldwithNana
