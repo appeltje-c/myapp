@@ -2,17 +2,18 @@
 
 1. Spring Boot
     - maven clean install
+    - maven release [version]
 
 2. Docker
     build image
-    - docker build -t martijnbenjamin/myapp:latest .
+    - docker build -t martijnbenjamin/myapp:[version] .
 
     test image
-    - docker run -p 8080:8080 martijnbenjamin/myapp:latest
+    - docker run -p 8080:8080 martijnbenjamin/myapp:[version]
 
 3. Push to registry
 
-   docker push martijnbenjamin/myap
+   docker push martijnbenjamin/myap[version]
 
 
 
