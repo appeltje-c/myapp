@@ -11,14 +11,14 @@
 
 	<groupId>com.martijn.benjamin</groupId>
 	<artifactId>myapp</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>myapp</name>
 	<description>My App</description>
 
 	<scm>
 		<url>https://github.com/appeltje-c/myapp</url>
 		<developerConnection>scm:git:git@github.com:appeltje-c/myapp.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>myapp-1.0</tag>
   </scm>
 
 	<distributionManagement>
