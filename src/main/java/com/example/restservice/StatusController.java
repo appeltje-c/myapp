@@ -1,7 +1,5 @@
 package com.example.restservice;
 
-import java.net.InetSocketAddress;
-import java.net.Socket;
 import java.util.concurrent.atomic.AtomicLong;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,16 +11,7 @@ public class StatusController {
 
 	@GetMapping("/status")
 	public Status status() throws Exception {
-
-		String ip;
-
-		try (Socket socket = new Socket()) {
-			socket.connect(new InetSocketAddress("google.com", 80));
-			ip = socket.getLocalAddress().getHostAddress();
-		}
-
-		return new Status(counter.incrementAndGet(), "Status: " + ip);
-
+		return new Status(counter.incrementAndGet(), " status message");
 	}
 
 }
